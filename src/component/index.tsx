@@ -9,7 +9,6 @@ interface CustomCardComponent {
 }
 
 export default function CustomCardComponent(props: CustomCardComponent) {
-  console.log('id', props.id);
   return (
     <View style={styles.containerStyle}>
       <Text style={styles.textTitle}>{props.title}</Text>
