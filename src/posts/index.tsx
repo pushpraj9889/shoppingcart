@@ -100,9 +100,4 @@ const styles = StyleSheet.create({
   renderItemView: {
     paddingVertical: 10,
   },
-  //   flatListContainerStyle: {
-  //     justifyContent: 'center',
-  //     alignItems: 'center',
-  //     marginTop: 400,
-  //   },
 });
