@@ -1,18 +1,14 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import Posts from '@travnor/posts';
+import Moodalytics from '@travnor/screen/moodalytics';
+// import Moodalytics from '@travnor/screen/moodalytics';
 
 export default function App() {
   return (
-    <View style={styles.containerStyle}>
-      <Posts />
+    <View style={{flex: 1}}>
+      <Moodalytics />
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  containerStyle: {
-    flex: 1,
-    backgroundColor: 'white',
-  },
-});
+const styles = StyleSheet.create({});
